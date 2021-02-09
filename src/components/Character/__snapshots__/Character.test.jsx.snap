@@ -2,16 +2,20 @@
 
 exports[`Character component renders Character 1`] = `
 <DocumentFragment>
-  <figure>
-    <img
-      src="https://vignette.wikia.nocookie.net/animalcrossing/
+  <a
+    href="/undefined"
+  >
+    <figure>
+      <img
+        src="https://vignette.wikia.nocookie.net/animalcrossing/
  images/e/ed/Admiral_NH.png/revision/latest?cb=20200802081138"
-    />
-    <figcaption>
-      <h1>
-        Admiral
-      </h1>
-    </figcaption>
-  </figure>
+      />
+      <figcaption>
+        <h1>
+          Admiral
+        </h1>
+      </figcaption>
+    </figure>
+  </a>
 </DocumentFragment>
 `;

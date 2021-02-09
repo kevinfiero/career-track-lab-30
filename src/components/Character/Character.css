@@ -5,8 +5,11 @@ img{
 
 figcaption{
   width: 8rem;
+  align-content: center;
 }
 
 figure{
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }

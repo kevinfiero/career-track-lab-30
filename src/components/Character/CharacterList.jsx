@@ -9,6 +9,7 @@ const CharacterList = ({ characters }) => {
       <Character 
         image={character.image}
         name={character.name}
+        id={character.id}
       />
     </li>
   ));
