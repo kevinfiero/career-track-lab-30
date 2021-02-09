@@ -9,6 +9,7 @@ describe('Character component', () => {
     const { asFragment } = render(
       <Router>
         <Character 
+          id="5f5fb4bbbfd05c2aed82e460"
           name = "Admiral" 
           image="https://vignette.wikia.nocookie.net/animalcrossing/
         images/e/ed/Admiral_NH.png/revision/latest?cb=20200802081138"
