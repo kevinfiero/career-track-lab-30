@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharacterList component renders CharacterList 1`] = `
+<DocumentFragment>
+  <ul>
+    <li>
+      <a
+        href="/5f5fb4bbbfd05c2aed82e460"
+      >
+        <figure>
+          <img
+            src="https://vignette.wikia.nocookie.net/animalcrossing/images/
+              e/ed/Admiral_NH.png/revision/latest?cb=20200802081138"
+          />
+          <figcaption>
+            <h1>
+              Admiral
+            </h1>
+          </figcaption>
+        </figure>
+      </a>
+    </li>
+    <li>
+      <a
+        href="/5f5fb4bbbfd05c2aed82e461"
+      >
+        <figure>
+          <img
+            src="https://vignette.wikia.nocookie.net/animalcrossing/images/
+              a/a7/Agent_S_NH.png/revision/latest?cb=20200719092526"
+          />
+          <figcaption>
+            <h1>
+              Agent S
+            </h1>
+          </figcaption>
+        </figure>
+      </a>
+    </li>
+  </ul>
+</DocumentFragment>
+`;

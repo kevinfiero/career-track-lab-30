@@ -1,0 +1,15 @@
+img{
+  width: 6rem;
+  height: 7rem;
+}
+
+figcaption{
+  width: 8rem;
+  align-content: center;
+}
+
+figure{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}

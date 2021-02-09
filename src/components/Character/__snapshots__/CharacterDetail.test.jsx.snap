@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CharacterDetail component renders CharacterDetail 1`] = `
+<DocumentFragment>
+  <section>
+    <figure>
+      <img
+        src="https://vignette.wikia.nocookie.net/animalcrossing/images/4/42/Agnes_NH.png/revision/latest?cb=20200804230432"
+      />
+      <figcaption>
+        <div>
+          <label
+            id="name-label"
+          >
+            Name:
+          </label>
+          <h1
+            aria-labelledby="name-label"
+          >
+            Agnes
+          </h1>
+        </div>
+        <div>
+          <label>
+            Quote:
+          </label>
+          <h1>
+            You reap what you sow.
+          </h1>
+        </div>
+        <div>
+          <label>
+            Gender:
+          </label>
+          <h1>
+            female
+          </h1>
+        </div>
+        <div>
+          <label>
+            Personality:
+          </label>
+          <h1>
+            sisterly
+          </h1>
+        </div>
+        <div>
+          <label>
+            Species:
+          </label>
+          <h1>
+            pig
+          </h1>
+        </div>
+        <div>
+          <label>
+            Birthday:
+          </label>
+          <h1>
+            April 21st (Taurus)
+          </h1>
+        </div>
+        <div>
+          <label>
+            Phrase:
+          </label>
+          <h1>
+            snuffle
+          </h1>
+        </div>
+        <div>
+          <label>
+            Skill:
+          </label>
+          <h1>
+            Cramming for tests
+          </h1>
+        </div>
+      </figcaption>
+    </figure>
+  </section>
+</DocumentFragment>
+`;
