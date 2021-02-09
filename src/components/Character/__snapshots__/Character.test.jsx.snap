@@ -7,8 +7,7 @@ exports[`Character component renders Character 1`] = `
   >
     <figure>
       <img
-        src="https://vignette.wikia.nocookie.net/animalcrossing/
- images/e/ed/Admiral_NH.png/revision/latest?cb=20200802081138"
+        src="https://vignette.wikia.nocookie.net/animalcrossing/images/e/ed/Admiral_NH.png/revision/latest?cb=20200802081138"
       />
       <figcaption>
         <h1>

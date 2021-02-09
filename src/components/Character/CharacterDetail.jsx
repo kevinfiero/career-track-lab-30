@@ -17,7 +17,7 @@ const Character = (
 ) => (
   <section>
     <figure>
-      <img className="detailImage" src={image} />
+      <img src={image} />
       <figcaption>
         <div>
           <label id="name-label">Name:</label>

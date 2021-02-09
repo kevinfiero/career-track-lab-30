@@ -5,9 +5,7 @@ exports[`CharacterDetail component renders CharacterDetail 1`] = `
   <section>
     <figure>
       <img
-        class="detailImage"
-        src="https://vignette.wikia.nocookie.net/animalcrossing/
- images/4/42/Agnes_NH.png/revision/latest?cb=20200804230432"
+        src="https://vignette.wikia.nocookie.net/animalcrossing/images/4/42/Agnes_NH.png/revision/latest?cb=20200804230432"
       />
       <figcaption>
         <div>
