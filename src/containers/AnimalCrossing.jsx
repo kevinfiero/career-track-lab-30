@@ -1,33 +1,55 @@
-import React, { Component } from 'react';
+import React, { useEffect, useState } from 'react';
 import CharacterList from '../components/Character/CharacterList';
 import { getCharacters } from '../services/characterApi';
 
-export default class AnimalCrossing extends Component {
-  state = {
-    characters: [],
-    loading: true
-  }
+const AnimalCrossing = () => {
+  const [loading, setLoading] = useState(true);
+  const [characters, setCharacters] = useState([]);
 
-  fetchCharacters = () => {
-    getCharacters(this.state.search).then(characters => 
-      this.setState({ characters, loading: false }));
-  }
+  useEffect(() => {
+    getCharacters().then((characters) => {
+      setCharacters(characters);
+      setLoading(false);
+    });
+  }, []);
 
-  componentDidMount() {
-    this.fetchCharacters();
-  }
+  if(loading) return <ul>Loading</ul>;
+  return <CharacterList characters={characters} />;
 
-  render() {
-    const { characters, loading } = this.state;
-    if(loading) return <ul>Loading</ul>;
+};
 
-    return (
-      <>
+export default AnimalCrossing;
+
+//Component Based Container Below
+
+// export default class AnimalCrossing extends Component {
+//   state = {
+//     characters: [],
+//     loading: true
+//   }
+
+//   fetchCharacters = () => {
+//     getCharacters(this.state.search).then(characters => 
+//       this.setState({ characters, loading: false }));
+//   }
+
+//   componentDidMount() {
+//     this.fetchCharacters();
+//   }
+
+//   render() {
+//     const { characters, loading } = this.state;
+//     if(loading) return <ul>Loading</ul>;
+
+//     return (
+//       <>
         
-        <CharacterList
-          characters={characters}
-        />
-      </>
-    );
-  }
-}
+//         <CharacterList
+//           characters={characters}
+//         />
+//       </>
+//     );
+//   }
+// }
+
+
