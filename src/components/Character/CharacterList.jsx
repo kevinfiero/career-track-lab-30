@@ -2,21 +2,19 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Character from './Character';
 
-const CharacterList = ({ characters }) => (
+const CharacterList = ({ characters }) => {
+  const characterElements = characters.map((character) => (
+    <li key={character.id}>
+      <Character 
+        image={character.image}
+        name={character.name}
+      />
+    </li>
+  ));
 
-  <>
-    <Character 
-      image={characters[0].image}
-      name={characters[0].name}
-    />
-    <Character 
-      image={characters[1].image}
-      name={characters[1].name}
-    />
-  </>
+  return <ul>{characterElements}</ul>;
 
-
-);
+};
 
 CharacterList.propTypes = {
   characters: PropTypes.array.isRequired
