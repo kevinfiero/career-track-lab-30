@@ -5,5 +5,25 @@ exports[`App component renders App 1`] = `
   <h1>
     Loading
   </h1>
+  <figure>
+    <img
+      src="https://vignette.wikia.nocookie.net/animalcrossing/images/e/ed/Admiral_NH.png/revision/latest?cb=20200802081138"
+    />
+    <figcaption>
+      <h1>
+        Admiral
+      </h1>
+    </figcaption>
+  </figure>
+  <figure>
+    <img
+      src="https://vignette.wikia.nocookie.net/animalcrossing/images/a/a7/Agent_S_NH.png/revision/latest?cb=20200719092526"
+    />
+    <figcaption>
+      <h1>
+        Agent S
+      </h1>
+    </figcaption>
+  </figure>
 </DocumentFragment>
 `;
