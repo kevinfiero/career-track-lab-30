@@ -4,12 +4,13 @@ import { getCharacters } from '../services/characterApi';
 
 export default class AnimalCrossing extends Component {
   state = {
-    characters: []
+    characters: [],
+    loading: true
   }
 
   fetchCharacters = () => {
     getCharacters(this.state.search).then(characters => 
-      this.setState({ characters }));
+      this.setState({ characters, loading: false }));
   }
 
   componentDidMount() {
@@ -17,11 +18,12 @@ export default class AnimalCrossing extends Component {
   }
 
   render() {
-    const { characters } = this.state;
+    const { characters, loading } = this.state;
+    if(loading) return <ul>Loading</ul>;
 
     return (
       <>
-        <h1>Loading</h1>
+        
         <CharacterList
           characters={characters}
         />

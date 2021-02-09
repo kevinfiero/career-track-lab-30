@@ -7,10 +7,10 @@ describe('AnimalCrossing Container', () => {
   it('displays a loading screen then a list of characters', async() => {
     render(<AnimalCrossing />);
 
-    const h1 = screen.getByText('Loading');
+    const ul = screen.getByText('Loading');
 
     return waitFor(() => {
-      expect(h1).toHaveTextContent('Loading');
+      expect(ul).not.toBeEmptyDOMElement();
     });
   });
 });
