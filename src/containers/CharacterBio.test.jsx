@@ -2,7 +2,7 @@ import React from 'react';
 import { render, screen, waitFor, cleanup } from '@testing-library/react';
 import CharacterBio from './CharacterBio';
 
-describe('AnimalCrossing Container', () => {
+describe('CharacterBio Container', () => {
   afterEach(() => cleanup());
   it('displays a loading screen then a list of characters', async() => {
     render(
